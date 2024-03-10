@@ -10,7 +10,7 @@
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
@@ -37,9 +37,11 @@
 			<artifactId>aws-lambda-java-events</artifactId>
 			<version>3.11.4</version>
 		</dependency>
-
-		
-
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-dynamodb</artifactId>
+			<version>1.12.640</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
